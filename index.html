@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,300&family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,500&family=Poppins:ital,wght@0,500;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="blue">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo">MCA_WALE</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/">Home<i class="material-icons left">home</i></a></li>
+                <li><a href="#portfolio">Portfolio <i class="material-icons left"> auto_stories</i></a></li>
+                <li><a href="#about">About<i class="material-icons left"> person</i></a></li>
+                <li><a href="#contact">Contact<i class="material-icons left"> settings_phone</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/">Home<i class="material-icons left">home</i></a></li>
+        <li><a href="#portfolio">Portfolio<i class="material-icons left"> auto_stories</i></a></li>
+        <li><a href="#about">About<i class="material-icons left"> person</i></a></li>
+        <li><a href="#contact">Contact<i class="material-icons left"> settings_phone</i></a></li>
+    </ul>
+    <!-- ===========================header section======================== -->
+
+    <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="image/bg1.jpeg"></a>
+        <div class="carousel-fixed-item center">
+            <p class="white-text">Don't Give Up Always Try And Try</p>
+            <a href="#" class="btn waves-effect waves-light transparent">Know more
+                <i class="material-icons right">send</i>
+            </a>
+        </div>
+        <a class="carousel-item" href="#two!"><img src="image/bg2.jpeg"></a>
+        <a class="carousel-item" href="#three!"><img src="image/bg3.jpeg"></a>
+        <a class="carousel-item" href="#four!"><img src="image/bg1.jpeg"></a>
+    </div>
+    <!-- ============================About section=========================== -->
+    <section id="about">
+        <h2 class="center-align">About Us</h2>
+        <div class="row">
+            <div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4">
+                <hr class="blue-text">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col m6 s12">
+                <img src="image/tmu.jpg" alt="aboutImg" class="responsive-img" />
+            </div>
+            <div class="col m6 s12">
+                <h2>Who am i?</h2>
+                <p>Teerthanker Mahaveer University also known as TMU is a private university in Moradabad, Uttar
+                    Pradesh, India. The University stands committed to the ideals of Lord Mahaveer and aspires to be
+                    recognised as the ultimate destination for world-class education.</p>
+                <button class="btn waves-effect waves-light blue">Know more</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- =============================Our service====================== -->
+    <section id="service">
+        <h2 class="center-align">Our Service</h2>
+        <div class="row">
+            <div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4">
+                <hr class="blue-text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="image/bg1.jpeg" class="responsive-img">
+                        <span class="card-title">Web Development</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">add</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am
+                            convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="image/bg4.jpeg" class="responsive-img">
+                        <span class="card-title">Software Development</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">add</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am
+                            convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="image/bg3.jpeg" class="responsive-img">
+                        <span class="card-title">Maintenance</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">add</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am
+                            convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================our gallery section======================== -->
+    <section id="portfolio">
+        <h2 class="center-align">Our Portfolio</h2>
+        <div class="row">
+            <div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4">
+                <hr class="blue-text">
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col s12 m6 l4">
+                <img src="image/port1.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://mcarestowale.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="image/port2.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://uniquegym.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="image/port3.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://satishchandra.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <img src="image/port4.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://scshopingmall.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="image/port6.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://todogoal.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="image/port7.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://pintusupermarket.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="image/port1.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://mcarestowale.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="image/port3.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://satishchandra.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="image/port7.png" class="responsive-img materialboxed" width="650" />
+                <div class="center-align">
+                    <a href="https://pintusupermarket.netlify.app/" target="_blank">Click Here!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================contact us section================ -->
+    <section id="contact">
+        <h2 class="center-align">Contact Us</h2>
+        <div class="row">
+            <div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4">
+                <hr class="blue-text">
+            </div>
+        </div>
+        <div class="row">
+            <form class="col s8 offset-s2"  action="/action_page.php" method="get" target="_blank" onsubmit="myfun()">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="first_name" id="first_name" type="text" autocomplete="off" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="last_name" id="last_name" autocomplete="off" type="text" class="validate">
+                            <label for="last_name">last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate" autocomplete="off">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="mobile" type="number" class="validate" autocomplete="off">
+                            <label for="mobile">Mobile</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s8 ">
+                            <button style="width: 150px" class="btn waves-effect waves-light">
+                                Send
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </section>
+    
+        <footer class="page-footer blue">
+            <div class=" container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">MCA_WALE</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                            content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Portfolio</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2023 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+    
+    
+  
+<div class="fixed-action-btn" onclick="topFunction()" id="myBtn">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">arrow_upward</i>
+  </a>
+</div>
+      
+    <!-- <input type="text" placeholder="name" id="fname">
+    <button onclick="myname()">click</button> -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true,
+
+            });
+
+            $('.materialboxed').materialbox();
+        });
+
+    </script>
+    <script>
+
+        function myfun() {
+            fname = document.getElementById('first_name').value;
+            lname = document.getElementById('last_name').value;
+            mobile = document.getElementById('mobile').value;
+            email = document.getElementById('email').value;
+
+            console.log({
+                fullname: fname + " " + lname,
+                mobile: mobile,
+                email: email
+            });
+            document.getElementById('first_name').value = "";
+            document.getElementById('last_name').value = "";
+            document.getElementById('mobile').value = "";
+            document.getElementById('email').value = "";
+            event.preventDefault();
+        }
+    </script>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
